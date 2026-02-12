@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_eleventh_clean_architicture/feature/color/data/datasource/local_color_data_source.dart';
-import 'package:flutter_eleventh_clean_architicture/feature/color/domain/entity/color_entity.dart';
-import 'package:flutter_eleventh_clean_architicture/feature/color/domain/entity/color_failure.dart';
-import 'package:flutter_eleventh_clean_architicture/feature/color/domain/repository/color_repository.dart';
+import 'package:lection_12/feature/color/data/datasource/local_color_data_source.dart';
+import 'package:lection_12/feature/color/domain/entity/color_entity.dart';
+import 'package:lection_12/feature/color/domain/entity/color_failure.dart';
+import 'package:lection_12/feature/color/domain/repository/color_repository.dart';
 
 class ColorRepositoryImpl implements ColorRepository {
   final LocalColorDataSource _localColorDataSource;

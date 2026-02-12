@@ -1,9 +1,9 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_eleventh_clean_architicture/feature/color/domain/entity/color_entity.dart';
-import 'package:flutter_eleventh_clean_architicture/feature/color/domain/usecase/get_color_use_case.dart';
-import 'package:flutter_eleventh_clean_architicture/feature/color/domain/usecase/select_color_use_case.dart';
+import 'package:lection_12/feature/color/domain/entity/color_entity.dart';
+import 'package:lection_12/feature/color/domain/usecase/get_color_use_case.dart';
+import 'package:lection_12/feature/color/domain/usecase/select_color_use_case.dart';
 
 part 'color_state.dart';
 

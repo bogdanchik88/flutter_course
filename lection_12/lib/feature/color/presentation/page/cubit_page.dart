@@ -1,7 +1,7 @@
 import 'package:flex_color_picker/flex_color_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_eleventh_clean_architicture/feature/color/presentation/cubit/color_cubit.dart';
+import 'package:lection_12/feature/color/presentation/cubit/color_cubit.dart';
 import 'package:get_it/get_it.dart';
 
 class CubitPage extends StatelessWidget {

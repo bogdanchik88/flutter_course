@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_eleventh_clean_architicture/core/failure/failure.dart';
+import 'package:lection_12/core/failure/failure.dart';
 
 abstract class UseCase<Type, Params> {
   Future<Either<Failure, Type>> call(Params params);

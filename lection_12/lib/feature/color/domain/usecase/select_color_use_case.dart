@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_eleventh_clean_architicture/core/use_case/use_case.dart';
-import 'package:flutter_eleventh_clean_architicture/feature/color/domain/entity/color_entity.dart';
-import 'package:flutter_eleventh_clean_architicture/feature/color/domain/entity/color_failure.dart';
-import 'package:flutter_eleventh_clean_architicture/feature/color/domain/repository/color_repository.dart';
+import 'package:lection_12/core/use_case/use_case.dart';
+import 'package:lection_12/feature/color/domain/entity/color_entity.dart';
+import 'package:lection_12/feature/color/domain/entity/color_failure.dart';
+import 'package:lection_12/feature/color/domain/repository/color_repository.dart';
 
 class SelectColorUseCase extends UseCase<ColorEntity, ColorEntity> {
   final ColorRepository colorRepository;
